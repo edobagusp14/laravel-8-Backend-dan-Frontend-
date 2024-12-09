@@ -1,0 +1,572 @@
+{
+	"info": {
+		"_postman_id": "71346fe1-5c47-4b15-a937-b060170373b1",
+		"name": "laraveljwt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9218126"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "edobagusp",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admin6@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin6@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234567",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "edobagusp",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admin6@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "edobagusp",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admin6@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/user?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzcyNzM2NSwiZXhwIjoxNzMzNzMwOTY1LCJuYmYiOjE3MzM3MjczNjUsImp0aSI6IkhBam9OV0h6Y1N4RDcxMDciLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.6KtsLziIXn2Yt8f9XyzIQ8207i-UFCgxcLnSLg4fJYQ",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"user"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzcyNzM2NSwiZXhwIjoxNzMzNzMwOTY1LCJuYmYiOjE3MzM3MjczNjUsImp0aSI6IkhBam9OV0h6Y1N4RDcxMDciLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.6KtsLziIXn2Yt8f9XyzIQ8207i-UFCgxcLnSLg4fJYQ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "refresh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "edobagusp",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admin6@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/refresh?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzcyNjkyNiwiZXhwIjoxNzMzNzMwNTI2LCJuYmYiOjE3MzM3MjY5MjYsImp0aSI6ImNRdWU2TzVWT05xUWNRRVEiLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dUkGEqxIULarf-QCy2vqGd54-e5Forh6Mn9YgVAU3lM",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"refresh"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzcyNjkyNiwiZXhwIjoxNzMzNzMwNTI2LCJuYmYiOjE3MzM3MjY5MjYsImp0aSI6ImNRdWU2TzVWT05xUWNRRVEiLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dUkGEqxIULarf-QCy2vqGd54-e5Forh6Mn9YgVAU3lM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view karyawan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/karyawan",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"karyawan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "store karyawan",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzczNTg5NSwiZXhwIjoxNzMzNzM5NDk1LCJuYmYiOjE3MzM3MzU4OTUsImp0aSI6IlBuNlJQNnZ3Q1U3SDZRRFIiLCJzdWIiOjksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.pULcSpqQCPLyP_qPkBo6mL1uDb7MGHKfbe7h2eNW1AE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "adam adam",
+							"type": "text"
+						},
+						{
+							"key": "jeniskelamin",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "jabatan",
+							"value": "teknisi",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "kudus",
+							"type": "text"
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "2024/11/17",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/karyawan/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"karyawan",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show id karyawan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzczNTg5NSwiZXhwIjoxNzMzNzM5NDk1LCJuYmYiOjE3MzM3MzU4OTUsImp0aSI6IlBuNlJQNnZ3Q1U3SDZRRFIiLCJzdWIiOjksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.pULcSpqQCPLyP_qPkBo6mL1uDb7MGHKfbe7h2eNW1AE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "adam adam",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jeniskelamin",
+							"value": "male",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jabatan",
+							"value": "teknisi",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "alamat",
+							"value": "kudus",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "2024/11/17",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/karyawan/show/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"karyawan",
+						"show",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update karyawan",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzczNjI2MywiZXhwIjoxNzMzNzM5ODYzLCJuYmYiOjE3MzM3MzYyNjMsImp0aSI6IkFPdzVXR0c1WGNYeWhMamwiLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dBAdTqyp6popxJbgJ2pg2slDmmGuw7U7YSm4FTzqNeM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "adam dwika",
+							"type": "text"
+						},
+						{
+							"key": "jeniskelamin",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "jabatan",
+							"value": "teknisi",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "kudus",
+							"type": "text"
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "2024/11/17",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/karyawan/edit/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"karyawan",
+						"edit",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete karyawan",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMzczNjI2MywiZXhwIjoxNzMzNzM5ODYzLCJuYmYiOjE3MzM3MzYyNjMsImp0aSI6IkFPdzVXR0c1WGNYeWhMamwiLCJzdWIiOjYsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dBAdTqyp6popxJbgJ2pg2slDmmGuw7U7YSm4FTzqNeM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "adam dwika",
+							"type": "text"
+						},
+						{
+							"key": "jeniskelamin",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "jabatan",
+							"value": "teknisi",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "kudus",
+							"type": "text"
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "2024/11/17",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/karyawan/edit/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"karyawan",
+						"edit",
+						"21"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,295 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "JWT",
+    "collectionId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+    "dateExported": "2024-11-22T14:42:45.064Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "874c973e-7c9d-4692-b01e-064127f32ed6",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "token",
+            "url": "http://127.0.0.1:8000/api/auth/user-profile?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-22T14:38:37.256Z",
+            "modified": "2024-11-22T14:38:37.256Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a0452d60-c85f-4568-8dff-ff7ec7102b55",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-22T14:38:37.257Z",
+            "modified": "2024-11-22T14:38:37.257Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "admin@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1234567"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "9e65eba1-e009-46ef-9cbd-e075cdfc55cf",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:8000/api/auth/logout?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1MzkzMiwiZXhwIjoxNzMxNTU3NTMyLCJuYmYiOjE3MzE1NTM5MzIsImp0aSI6IkVBMllvRzFUUG1VVFhnMWQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.8jPP-bwbrz6swLNsUswO6vuYS6x5wnz5h7hvKlhxz70",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-22T14:38:37.258Z",
+            "modified": "2024-11-22T14:38:37.258Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1MzkzMiwiZXhwIjoxNzMxNTU3NTMyLCJuYmYiOjE3MzE1NTM5MzIsImp0aSI6IkVBMllvRzFUUG1VVFhnMWQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.8jPP-bwbrz6swLNsUswO6vuYS6x5wnz5h7hvKlhxz70",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "76279588-c67a-4284-974c-5d920a647004",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/auth/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-22T14:38:37.260Z",
+            "modified": "2024-11-22T14:38:37.260Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "edo"
+                    },
+                    {
+                        "name": "email",
+                        "value": "admin@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1234567"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "31bb1498-45ef-4cad-9271-23bc20264a09",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "refresh",
+            "url": "http://127.0.0.1:8000/api/auth/refresh?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-22T14:38:37.259Z",
+            "modified": "2024-11-22T14:38:37.259Z",
+            "headers": [
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, defelate, br"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "312f644e-ce73-48cf-a71b-545d6d4c7c1c",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "view karyawan",
+            "url": "http://127.0.0.1:8000/api/karyawan",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-11-22T14:38:37.262Z",
+            "modified": "2024-11-22T14:39:27.405Z",
+            "headers": [
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, defelate, br"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMjI4NjMyNiwiZXhwIjoxNzMyMjg5OTI2LCJuYmYiOjE3MzIyODYzMjYsImp0aSI6InhzQTQ1dWhkaGVGdEVxc1giLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.FfVHXz6EhsBBSaIqx2u5Fj_nJ9_iFSOH-b0Uu97OY84"
+            }
+        },
+        {
+            "_id": "71692869-9c50-4742-a258-f67ecd6119a6",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "store karyawan",
+            "url": "http://127.0.0.1:8000/api/karyawan/store",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-11-22T14:38:37.261Z",
+            "modified": "2024-11-22T14:40:51.644Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nama",
+                        "value": "SUKA SUKA7"
+                    },
+                    {
+                        "name": "jeniskelamin",
+                        "value": "male"
+                    },
+                    {
+                        "name": "jabatan",
+                        "value": "coba"
+                    },
+                    {
+                        "name": "alamat",
+                        "value": "semarang"
+                    },
+                    {
+                        "name": "tgl_lahir",
+                        "value": "2024/11/12"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMjI4NjMyNiwiZXhwIjoxNzMyMjg5OTI2LCJuYmYiOjE3MzIyODYzMjYsImp0aSI6InhzQTQ1dWhkaGVGdEVxc1giLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.FfVHXz6EhsBBSaIqx2u5Fj_nJ9_iFSOH-b0Uu97OY84"
+            }
+        },
+        {
+            "_id": "b051f191-7162-469c-96a7-0f830bf2de47",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "show karyawan",
+            "url": "http://127.0.0.1:8000/api/karyawan/show/5",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-11-22T14:38:37.263Z",
+            "modified": "2024-11-22T14:40:25.545Z",
+            "headers": [
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, defelate, br"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMjI4NjMyNiwiZXhwIjoxNzMyMjg5OTI2LCJuYmYiOjE3MzIyODYzMjYsImp0aSI6InhzQTQ1dWhkaGVGdEVxc1giLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.FfVHXz6EhsBBSaIqx2u5Fj_nJ9_iFSOH-b0Uu97OY84"
+            }
+        },
+        {
+            "_id": "1eb40658-d9cc-403c-b39f-3d74643ae414",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "update karyawan",
+            "url": "http://127.0.0.1:8000/api/karyawan/edit/5",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-11-22T14:38:37.264Z",
+            "modified": "2024-11-22T14:41:27.577Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 5,\n    \"nama\": \"EDO BAGUS PANGESTU\",\n    \"jeniskelamin\": \"LAKI\",\n    \"jabatan\": \"TEKNISI\",\n    \"user_id\": 1,\n    \"alamat\": \"semarang\",\n    \"tgl_lahir\": \"2024-11-12\"\n\n  }",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMjI4NjMyNiwiZXhwIjoxNzMyMjg5OTI2LCJuYmYiOjE3MzIyODYzMjYsImp0aSI6InhzQTQ1dWhkaGVGdEVxc1giLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.FfVHXz6EhsBBSaIqx2u5Fj_nJ9_iFSOH-b0Uu97OY84"
+            }
+        },
+        {
+            "_id": "625a1e59-5258-48d5-b973-0140b04885e7",
+            "colId": "3652cea1-d542-4027-b265-e67c1923f0ba",
+            "containerId": "",
+            "name": "delete karyawan",
+            "url": "http://127.0.0.1:8000/api/karyawan/delete/5",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-11-22T14:38:37.265Z",
+            "modified": "2024-11-22T14:41:53.029Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMjI4NjMyNiwiZXhwIjoxNzMyMjg5OTI2LCJuYmYiOjE3MzIyODYzMjYsImp0aSI6InhzQTQ1dWhkaGVGdEVxc1giLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.FfVHXz6EhsBBSaIqx2u5Fj_nJ9_iFSOH-b0Uu97OY84"
+            }
+        }
+    ],
+    "ref": "c9QcJJKsDVLNqrbauv3UuZPori06ReR2cYzR_m0Pj76lB6dPBhqCzjnbISfDROle0PUy42c6ggQnZJTzfYmoTQ"
+}
